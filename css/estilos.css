@@ -1,0 +1,123 @@
+@import url(variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/*200-800*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexcolum {
+  display: flex;
+  flex-direction: column;
+}
+
+/*header*/
+
+.header {
+  justify-content: space-between;
+  padding: 0 2.5rem;
+}
+
+.nav {
+  gap: 1.5rem;
+}
+
+/*main*/
+
+.main {
+  padding: 1.5rem;
+}
+
+/*profile*/
+.main__section1 {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.profile {
+  order: 2;
+}
+
+.profile__picture {
+  order: 1;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+}
+
+.profile {
+  gap: 1rem;
+}
+
+.profile__name {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 800;
+  color: var(--light-white-200);
+}
+
+.profile__description {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--light-gray-200);
+}
+
+.profile__button {
+  margin-top: 15px;
+  padding: 16px 48px;
+  font-size: 18px;
+  width: max-content;
+  align-self: center;
+  gap: 16px;
+  color: var(--light-white-100);
+  background-color: var(--light-gray-100);
+  border-radius: var(--radius-3);
+}
+
+.profile__button i {
+  font-size: 20px;
+  color: var(--light-white-100);
+}
