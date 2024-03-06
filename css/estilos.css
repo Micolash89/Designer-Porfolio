@@ -30,6 +30,11 @@ a {
   text-decoration: none;
 }
 
+a:active,
+a:visited {
+  color: var(--dark-black-100);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -115,9 +120,124 @@ body {
   color: var(--light-white-100);
   background-color: var(--light-gray-100);
   border-radius: var(--radius-3);
+  cursor: pointer;
 }
 
 .profile__button i {
   font-size: 20px;
   color: var(--light-white-100);
+}
+
+/*featured work*/
+.main__section2--title {
+  color: var(--light-white-200);
+  font-weight: 500;
+  font-size: var(--txt-6);
+  align-content: center;
+}
+
+.main__section2--title i {
+  margin-right: 10px;
+  font-size: var(--txt-1);
+}
+
+/*visual Explorations*/
+.main__section3--title {
+  color: var(--light-white-200);
+  font-weight: 500;
+  font-size: var(--txt-6);
+  align-content: center;
+}
+
+.main__section3--title i {
+  margin-right: 10px;
+  font-size: var(--txt-1);
+}
+
+/*personal projects*/
+
+.main__section4--title {
+  color: var(--light-white-200);
+  font-weight: 500;
+  font-size: var(--txt-6);
+  align-content: center;
+}
+
+.main__section4--title i {
+  margin-right: 10px;
+  font-size: var(--txt-1);
+}
+
+/*contact*/
+
+.contact {
+  padding: 150px 40px 60px;
+  text-align: center;
+  gap: 15px;
+}
+
+.contact__title {
+  font-weight: 900;
+  font-size: var(--txt-5);
+  color: var(--light-white-200);
+}
+
+.contact__description {
+  font-size: var(--txt-6);
+  color: var(--light-gray-200);
+  font-weight: 500;
+}
+
+.contact__button {
+  padding: 16px 50px;
+  font-size: 18px;
+  width: max-content;
+  align-self: center;
+  display: flex;
+  align-self: center;
+  color: var(--light-white-100);
+  background-color: var(--light-gray-100);
+  border-radius: var(--radius-3);
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.contact__button--icon {
+  font-size: 23px;
+  color: var(--light-white-100);
+  margin-right: 15px;
+}
+
+/*footer*/
+
+.footer {
+  padding: 50px;
+  gap: 30px;
+  width: 100%;
+  border-top: 1px solid var(--light-gray-300);
+}
+
+.footer__nav {
+  align-items: center;
+}
+
+.footer__description {
+  order: 2;
+  text-align: center;
+  font-size: var(--txt-3);
+  color: var(--light-gray-200);
+}
+
+.footer__description strong {
+  color: var(--light-white-300);
+}
+
+.footer__nav--ul {
+  width: 80%;
+  justify-content: space-between;
+  font-size: var(--txt-1);
+}
+
+.nav__a--icon {
+  color: var(--light-gray-200);
 }

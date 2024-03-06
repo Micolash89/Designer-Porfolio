@@ -4,6 +4,7 @@
 
   --light-gray-100: #9d9d9d;
   --light-gray-200: #959595;
+  --light-gray-300: #696969;
 
   --light-white-100: #ffffff;
   --light-white-200: #dedede;
@@ -17,4 +18,6 @@
   --txt-2: 0.75rem; /*12px*/
   --txt-3: 1rem; /*16px*/
   --txt-4: 1.5rem; /*24px*/
+  --txt-5: 1.75rem; /*28px*/
+  --txt-6: 1.125rem; /*18px*/
 }
