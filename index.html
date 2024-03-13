@@ -11,26 +11,52 @@
 
 <body>
 
-    <header class="header flexrow">
-        <section class="header__section section1 flexrow">
-            <img class="section1__img" src="" alt="logo">
-            <span class="section1__span">Logo Here</span>
-        </section>
-        <section class="header__section section2">
-            <nav class="section2__nav">
-                <ul class="section__nav--ul nav flexrow">
-                    <li class="nav__item">
-                        <a class="nav__item--a" href="#">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__item--a" href="#">Work</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__item--a" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
+    <header class="header ">
+        <label class="logo">
+            <img class="logo__img" src="" alt="logo">
+            <span class="logo__span">Logo Here</span>
+        </label>
+
+        <nav class="header__nav sidebar">
+            <ul class="header__ul ">
+                <li class="header__ul--items li">
+                    <a class="li__a  li__icon--close" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a>
+                </li>
+                <li class="header__ul--items li">
+                    <a class="li__a active" href="#">Home</a>
+                </li>
+                <li class="header__ul--items li">
+                    <a class="li__a" href="#">Work</a>
+                </li>
+                <li class="header__ul--items li">
+                    <a class="li__a" href="#">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <nav class="header__nav">
+            <ul class="header__ul ">
+                <li class="header__ul--items hideOnMobile li">
+                    <a class="li__a active" href="#">Home</a>
+                </li>
+                <li class="header__ul--items hideOnMobile li">
+                    <a class="li__a" href="#">Work</a>
+                </li>
+                <li class="header__ul--items hideOnMobile li">
+                    <a class="li__a" href="#">Contact</a>
+                </li>
+                <li class="header__ul--items hideOnMobile li li__icon--open menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main class="main ">
