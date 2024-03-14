@@ -32,7 +32,7 @@ a {
 
 a:active,
 a:visited {
-  color: var(--dark-black-100);
+  color: none;
 }
 
 img {
@@ -68,9 +68,16 @@ body {
 
 /*header*/
 
+.header{
+  background-color: var(--dark-black-400);
+  padding-left: 50px;
+}
+
 .header__nav {
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__ul {
@@ -82,7 +89,7 @@ body {
 }
 
 .header__ul--items {
-  height: 50px;
+  height: 60px;
 }
 
 .li__a {
@@ -91,11 +98,14 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: black;
+  color: var(--light-white-100);
+  font-weight: 600;
+  
 }
 
 nav a:hover {
   background-color: #f0f0f0;
+  color: var(--dark-black-100);
 }
 
 nav li:first-child {
@@ -114,7 +124,7 @@ nav li:first-child {
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column ;
   display: none;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: flex-start;
 }
 
@@ -126,6 +136,8 @@ nav li:first-child {
 .sidebar a {
   width: 100%;
 }
+
+
 
 /*main*/
 
@@ -234,7 +246,6 @@ nav li:first-child {
   align-items: center;
   justify-content: center;
   background-color: var(--dark-black-300);
-
   opacity: 0; /* Inicialmente oculto */
   transition: opacity 0.4s; /* Transición para la opacidad */
   visibility: hidden;
@@ -312,7 +323,6 @@ nav li:first-child {
   align-items: center;
   justify-content: center;
   background-color: var(--dark-black-300);
-
   opacity: 0; /* Inicialmente oculto */
   transition: opacity 0.4s; /* Transición para la opacidad */
   visibility: hidden;
@@ -333,6 +343,14 @@ nav li:first-child {
   }
 }
 
+.svgIcon {
+  color: var(--light-white-100) ;
+  font-size: 30px;
+}
+
+.li__icon--close{
+  fill:var(--light-white-100);
+}
 /*personal projects*/
 
 .main__section4--title {
@@ -495,6 +513,8 @@ nav li:first-child {
   color: var(--light-gray-200);
 }
 
+
+
 @media (min-width: 400px) {
   .sidebar {
     width: 100%;
@@ -514,6 +534,8 @@ nav li:first-child {
     align-items: center;
     padding: 5px;
   }
+
+ 
 }
 
 /*1400 px*/
@@ -523,7 +545,11 @@ nav li:first-child {
     width: 100%;
   }
 
-  /*main*/
+  .li__a {
+    font-size: var(--txt-6);
+  }
+
+   /*main*/
   /*profile*/
   .main {
     display: flex;

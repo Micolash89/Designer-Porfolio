@@ -11,12 +11,13 @@
 
 <body>
 
-    <header class="header ">
+    <header class="header">
         <nav class="header__nav ">
+
             <ul class="header__ul sidebar ">
                 <li class="header__ul--items li">
-                    <a class="li__a  li__icon--close" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
-                            viewBox="0 -960 960 960" width="24">
+                    <a class="li__a  li__icon--close" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+                            viewBox="0 -960 960 960" width="30">
                             <path
                                 d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                         </svg></a>
@@ -25,29 +26,30 @@
                     <a class="li__a active" href="#">Home</a>
                 </li>
                 <li class="header__ul--items li">
-                    <a class="li__a" href="#">Work</a>
+                    <a class="li__a" href="#work">Work</a>
                 </li>
                 <li class="header__ul--items li">
-                    <a class="li__a" href="#">Contact</a>
+                    <a class="li__a" href="#contact">Contact</a>
                 </li>
 
             </ul>
         </nav>
-        <nav class="header__nav">
+        <nav class="header__nav flexrow">
+            <a href="#" class="hideOnMobile header__nav--icon">
+                <i class="ri-honor-of-kings-line svgIcon"></i>
+            </a>
             <ul class="header__ul ">
                 <li class="header__ul--items hideOnMobile li">
                     <a class="li__a active" href="#">Home</a>
                 </li>
                 <li class="header__ul--items hideOnMobile li">
-                    <a class="li__a" href="#">Work</a>
+                    <a class="li__a" href="#work">Work</a>
                 </li>
                 <li class="header__ul--items hideOnMobile li">
-                    <a class="li__a" href="#">Contact</a>
+                    <a class="li__a" href="#contact">Contact</a>
                 </li>
                 <li class="header__ul--items hideOnMobile li li__icon--open menu-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                    </svg>
+                    <i class="ri-menu-fill svgIcon"></i>
                 </li>
             </ul>
         </nav>
@@ -69,9 +71,9 @@
         </section>
 
         <section class="main__section2">
-            <h2 class="main__section2--title flexrow"><i class="ri-arrow-down-line"></i>FEATURED WORK</h2>
+            <h2 class="main__section2--title flexrow" id="work"><i class="ri-arrow-down-line"></i>FEATURED WORK</h2>
 
-            <section class="main__section2--work work flexcolum">
+            <section class="main__section2--work work flexcolum" id="work">
                 <div class="work__img">
                     <img class="work__img--img" src="images/unsplash_g-pKprPg5yw.png" alt="work-image">
                     <div class="work__img--p">
@@ -147,7 +149,6 @@
 
             </section>
 
-
         </section>
         <section class="main__section4 ">
             <h2 class="main__section4--title">My Products</h2>
@@ -173,12 +174,10 @@
                         <p class="products__container--p">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-
-
             </section>
         </section>
 
-        <section class="main__section5 contact flexcolum">
+        <section class="main__section5 contact flexcolum" id="contact">
             <h2 class="contact__title">Contact Me</h2>
             <p class="contact__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores corrupti
                 rerum voluptas alias eum.</p>
