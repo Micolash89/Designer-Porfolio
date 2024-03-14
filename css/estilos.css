@@ -104,7 +104,7 @@ body {
 }
 
 nav a:hover {
-  background-color: #f0f0f0;
+  background-color: var(--light-white-300);
   color: var(--dark-black-100);
 }
 
@@ -351,6 +351,15 @@ nav li:first-child {
 .li__icon--close{
   fill:var(--light-white-100);
 }
+
+.header__nav--icon:hover{
+  border-radius: 100%;
+}
+
+.logo:hover{
+  color: var(--dark-black-100);
+}
+
 /*personal projects*/
 
 .main__section4--title {
