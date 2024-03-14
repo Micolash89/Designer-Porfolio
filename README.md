@@ -4,8 +4,8 @@ Este es un proyecto de un portafolio diseñado para un diseñador. El proyecto i
 
 ## Recursos adicionales
 
-- Diseño original en Figma: [Enlace](https://www.figma.com/file/xBhBitaQTF0yFbiTifx5Jf/Designer-Portfolio-(Community)?type=design&node-id=0-1&mode=design&t=aCbB2CdL2mvD3jIJ-0)
 - Página web desplegada en GitHub Pages: [Enlace](https://micolash89.github.io/Designer-Porfolio/)
+- Diseño original en Figma: [Enlace](https://www.figma.com/file/xBhBitaQTF0yFbiTifx5Jf/Designer-Portfolio-(Community)?type=design&node-id=0-1&mode=design&t=aCbB2CdL2mvD3jIJ-0)
 
 ## Contenido del proyecto
 
